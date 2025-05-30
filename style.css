@@ -1,0 +1,26 @@
+button {
+    background-color: blue;
+    color: white;
+    border: rem;
+    border-radius: 0.2rem;
+    border-color: black;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin: 0.5rem;;
+}
+button .hover{
+    background-color: gray;
+}
+label {
+    color:darkblue   ;
+    border: 10rem;
+}
+input {background-color: gray;}
+
+body {
+    color: green;
+    text-align: center;
+}
+p {
+    font-style: italic;
+}

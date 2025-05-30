@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="numero" id="number">Valor</label>
+    <input id="numero" type="number">
+    <div></div>
+    <button id="botao" onclick="mostrar()">Resultado</button>
+    <p id="mensagem"></p>
+    <script>
+        const btn = document,getElementById=(botao)
+        function Pos(){
+            var number = document.getElementById("number").value
+            if (number => 0){
+                console.log('positivo')
+                document.getElementById('Pos').innerText="positivo" 
+            if (number < 0){
+            console.log("Neg")
+            document.getElementById('Pos').innerText="Negativo"
+            }
+            return (Pos)
+        }
+    }
+        function Parr(){
+            if (number %= 2) {
+            console.log("Par")
+            document.getElementById('Par').innerText="Par"
+        }
+            if (number %= 3){
+                console.log("Impar")
+                document.getElementById('Par').innerText="Impar"
+            }
+            return (Par)    
+        }
+        
+    
+        function mostrar(){
+        var mensagem = document.getElementById('mensagem').innerText = `${Parr}       e      ${Pos}`
+
+        }
+    
+    </script>
+</body>
+</html>
